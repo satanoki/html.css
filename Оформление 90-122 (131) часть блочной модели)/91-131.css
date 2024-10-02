@@ -1,0 +1,244 @@
+#elem0 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	border-radius: 10px 30px 30px;
+}
+
+#elem1 {
+	width: 200px;
+	height: 300px;
+	border: 1px solid red;
+	border-radius: 8%;
+}
+
+#elem2 {
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+	border-radius: 50%;
+}
+
+body{
+	background-image: url("bg.png");
+}
+
+#batman ul  {
+	list-style-type: square;
+}
+
+#batman0 ul {
+	list-style-type: circle;
+}
+
+#batman1 ul {
+	list-style-type: disc;
+}
+
+#batman2 ul {
+	list-style-type: none;
+}
+
+#batman3 ol {
+	list-style-type: lower-roman;
+}
+
+#batman4 ol {
+	list-style-type: upper-roman;
+}
+
+#batman5 ol {
+	list-style-type: lower-alpha;
+}
+
+#batman6 ol {
+	list-style-type: upper-alpha;
+}
+
+#batman7 ol {
+	list-style-type: lower-greek;
+}
+
+#batman8 ol {
+	list-style-type: decimal-leading-zero;
+}
+
+#batman9 #parent {
+	width: 400px;
+	border: 1px dashed blue;
+}
+#batman9 #child {
+	height: 300px;
+	border: 1px solid orange;
+	margin: 50px;
+}
+
+
+#batman10 #parent {
+	width: 400px;
+	border: 1px dashed blue;
+}
+#batman10 #child {
+	border: 1px dashed green;
+	margin: 20px;
+}
+#batman10 #freak {
+	height: 200px;
+	border: 1px solid red;
+	margin: 20px;
+}
+
+#batman11 #parent {
+	width: 200px;
+	border: 1px solid red;
+}
+#batman11 #child {
+	margin-top:    50px; /* сверху */
+	margin-right:  50px; /* справа */
+	margin-bottom: 100px; /* снизу */
+	margin-left:   50px; /* слева */
+	
+	height: 100px;
+	border: 1px solid green;
+}
+
+#batman12 #parent {
+	width: 200px;
+	border: 1px solid red;
+}
+#batman12 #child {
+	margin-top:    50px; /* сверху */
+	margin-right:  25px; /* справа */
+	margin-bottom: 50px; /* снизу */
+	margin-left:   25px; /* слева */
+	
+	height: 100px;
+	border: 1px solid green;
+}
+
+#batman13 #parent {
+	width: 200px;
+	border: 1px solid red;
+}
+#batman13 #child {
+	margin-top:    20px; /* сверху */
+	margin-right:  70px; /* справа */
+	margin-bottom: 20px; /* снизу */
+	margin-left:   70px; /* слева */
+	
+	height: 100px;
+	border: 1px solid green;
+}
+
+#batman14 #parent {
+	width: 200px;
+	border: 1px solid orange;
+}
+#batman14 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 25px 50px 100px 10px;
+}
+
+#batman15 #parent {
+	width: 200px;
+	border: 1px solid orange;
+}
+
+#batman15 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 100px 50px;
+}
+
+#batman16 #parent {
+	width: 200px;
+	border: 1px solid orange;
+}
+
+#batman16 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 25px 50px;
+}
+
+#batman17 #parent {
+	width: 200px;
+	border: 1px solid orange;
+}
+
+#batman17 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 200px 50px 30px;
+}
+
+#batman18 #parent {
+	width: 400px;
+	border: 1px solid orange;
+}
+
+#batman18 #child {
+	height: 50px;
+	border: 1px dashed blue;
+	margin: 30px 100px 50px;
+}
+
+#dc #elem {
+	padding: 40px;
+	width: 200px;
+	border: 1px solid red;
+	text-align: justify;
+}
+
+#dc0 #elem {
+	padding-top:    20px; 
+    padding-right:  20px; 
+    padding-bottom: 20px; 
+    padding-left:   20px;
+
+    width: 500px;
+    border: 1px solid green;
+    text-align: justify;
+}
+#dc1 #elem  {
+    padding-top:    10px; 
+    padding-right:  10px; 
+    padding-bottom: 10px; 
+    padding-left:   10px; 
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 300px;
+    border: 1px solid red;
+    text-align: justify;
+}
+
+#dc2 #elem {
+    padding-top:    50px; 
+    padding-right:  25px; 
+    padding-bottom: 80px; 
+    padding-left:   25px; 
+
+    width: 200px;
+    border: 1px solid red;
+    text-align: justify;
+}
+
+#dc3 #elem {
+    padding: 10px 20px 30px 40px;
+    width: 300px;
+    border: 1px solid red;
+    text-align: justify;
+}
+#dc4 #elem {
+    padding: 60px 30px;
+    width: 300px;
+    border: 1px solid red;
+    text-align: justify;
+}
+#dc5 #elem {
+    padding: 10px 20px 40px;
+    width: 300px;
+    border: 1px solid red;
+    text-align: justify;
+}

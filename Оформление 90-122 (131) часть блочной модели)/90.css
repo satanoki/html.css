@@ -1,0 +1,16 @@
+#elem {
+    width: 200px;
+    height: 200px;
+    color: rgb(126, 137, 235);
+    background-color: rgb(126, 137, 235); 
+}
+#elem1 {
+    width: 300px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(77, 238, 153)
+
+
+}
