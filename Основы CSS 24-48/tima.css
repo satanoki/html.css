@@ -1,0 +1,18 @@
+p {
+	color: rgb(233, 126, 4);
+    width: 300px;
+}
+h1 {
+	color: #f1f1f1f1;
+}
+h2 {
+	color: blue;
+}
+h3 {
+	color: red;
+}
+
+td {
+	width: 400px;
+	height: 300px;
+}

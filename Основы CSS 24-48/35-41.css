@@ -1,0 +1,31 @@
+h2 {
+	font-weight: normal;
+    font-size: 40px;
+    
+}
+p {
+	
+	text-indent: 50px;
+	
+	font:italic bold 40px/60px Arial;
+    
+}
+
+table {
+    width: 500px;
+    height: 300px;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+}
+
+th {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
