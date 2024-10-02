@@ -1,0 +1,50 @@
+p.eee {
+	color: red;
+}
+
+p .eee {
+	color: green;
+}
+
+p.bbb {
+	color: red;
+}
+
+p .bbb {
+	color: red;
+}
+
+.eeee p.bbbb {
+	color: red;
+}
+
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+	font-family: Arial;
+}
+
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+.bloods{
+	color:red;
+}
+.families{
+	font-family: Arial;
+}
+.crips{
+	font-size: 30px;
+}
