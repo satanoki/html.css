@@ -1,0 +1,95 @@
+#pozic #elem1 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+#pozic #elem2 {
+	position: absolute;
+	top: 150px;
+	left: 80px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+
+#pozic0 #elem1 {
+    position:absolute;
+    top:250px;
+    left:10px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+#pozic0 #elem2 {
+	position: absolute;
+	top: 250px;
+	left: 80px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+#pozic0 #elem3 {
+    position:absolute;
+    top: 250px;
+    left: 150px;
+    width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#pozic1 #elem1 {
+    position:absolute;
+    top:350px;
+    left:10px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+#pozic1 #elem2 {
+	position: absolute;
+	top: 385px;
+	left: 45px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+#pozic1 #elem3 {
+    position:absolute;
+    top: 420px;
+    left: 80px;
+    width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#pozic2 #elem1 {
+    position:absolute;
+    top:500px;
+    left:10px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+    background-color: red;
+}
+#pozic2 #elem2 {
+	position: absolute;
+	top: 530px;
+	left: 45px;
+	
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+    background-color: blue;
+}
+#pozic2 #elem3 {
+    position:absolute;
+    top: 560px;
+    left: 80px;
+    width: 50px;
+	height: 50px;
+	border: 1px solid green;
+    background-color: green;
+}

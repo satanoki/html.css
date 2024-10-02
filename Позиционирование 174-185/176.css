@@ -1,0 +1,192 @@
+#pos0 #parent {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+#pos0 #child {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+
+#pos1 #parent {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 10px auto;
+	background-color: #4DEE99;
+}
+#pos1 #child {
+    background-color: white;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+	
+	width: 100px;
+	height: 100px;
+	
+}
+#pos1 #child1 {
+    background-color: white;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+
+	width: 100px;
+	height: 100px;
+}
+
+#pos2 #parent {
+	position: relative;
+	width: 200px;
+	height: 440px;
+	margin: 10px auto;
+	border: 1px solid black;
+}
+#pos2 #child {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: red;
+	width: 100px;
+	height: 100px;
+	
+}
+#pos2 #child1 {
+    
+	position: absolute;
+	bottom:175px;
+	right: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: yellow;
+	width: 100px;
+	height: 100px;
+}
+#pos2 #child2 {
+	position: absolute;
+	bottom: 60px;
+	right: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: green;
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+
+#pos3 #parent {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	margin: 10px auto;
+    border-radius: 250px;
+    background-color: #4DEE99;
+}
+#pos3 #child1 {
+	position: absolute;
+	top: 70px;
+	left: 100px;
+    border-radius: 50%;
+    
+    background-color: white;
+	width: 100px;
+	height: 100px;
+	
+}
+#pos3 #child2 {
+    
+	position: absolute;
+	top: 70px;
+	right: 100px;
+    border-radius: 50%;
+    background-color: white;
+	width: 100px;
+	height: 100px;
+}
+#pos3 #child3 {
+	position: absolute;
+	top: 200px;
+	left: 215px;
+    
+    background-color: white;
+	width: 70px;
+	height: 70px;
+}
+#pos3 #child4 {
+	position: absolute;
+	bottom: 120px;
+	left: 150px;
+    
+    background-color: white;
+	width: 200px;
+	height: 20px;
+}
+
+
+
+
+#pos4 #parent {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: 10px auto;
+    border-radius: 300px;
+    background-color: #C4CD14;
+}
+#pos4 #child1 {
+	position: absolute;
+	top: 70px;
+	left: 80px;
+    border-radius: 50%;
+    
+    background-color: white;
+	width: 80px;
+	height: 80px;
+	
+}
+#pos4 #child2 {
+    
+	position: absolute;
+	top: 70px;
+	right: 80px;
+    border-radius: 50%;
+    
+    background-color: white;
+	width: 80px;
+	height: 80px;
+}
+#pos4 #child3 {
+	position: absolute;
+	top: 200px;
+	left: 165px;
+    border-radius: 50%;
+    
+    background-color: white;
+	width: 70px;
+	height: 70px;
+}
+#pos4 #child4 {
+	position: absolute;
+	bottom: 70px;
+	left: 100px;
+    border-radius: 150px;
+
+    background-color: white;
+	width: 200px;
+	height: 20px;
+}
+
+
