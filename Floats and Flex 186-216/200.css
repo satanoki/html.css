@@ -1,0 +1,728 @@
+#parcel .parent{
+    border: 1px solid black;
+    text-align: justify;
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+}
+#parcel .child{
+    float: right;
+    border: 1px solid green;
+    width: 100px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#parcel0 .parent {
+	border: 1px solid black;
+	text-align: justify;
+    margin:auto;
+    padding:20px;
+    width:800px;
+   
+}
+#parcel0 .child {
+	float: right;
+	width: 130px;
+	height: 80px;
+	border: 1px solid green;
+    margin-left:20px;
+    margin-top:20px;
+    text-align: center;
+    
+}
+
+#parcel1 .parent {
+	width: 100%;
+	border: 1px solid black;
+	text-align: justify;
+    padding:20px;
+
+}
+#parcel1 .child {
+    float: left;
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    text-align: center;
+    margin:0 10px;
+    
+}
+#parcel1 .clearfix {
+	clear: both;
+}
+
+#parcel2 .parent {
+	width: 100%;
+	border: 1px solid black;
+	text-align: justify;
+    padding:20px;
+
+}
+#parcel2 .child {
+    float: right;
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    text-align: center;
+    margin:0 10px;
+    
+}
+#parcel2 .clearfix {
+	clear: both;
+}
+
+#parcel3 .parent {
+	width: 800px;
+	border: 1px solid red;
+	text-align: justify;
+    height:300px;
+    margin:auto;
+
+}
+#parcel3 .child {
+    float: left;
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+#parcel3 .clearfix {
+	clear: both;
+}
+
+#parcel4 .parent	{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 800px;
+	height: 300px;
+	border: 1px solid red;
+    margin:auto;
+}
+#parcel4 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel5 .parent	{
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	height: 300px;
+	border: 1px solid red;
+    margin:auto;
+}
+#parcel5 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel6 .parent	{
+	display: flex;
+	flex-direction: column-reverse;
+	width: 800px;
+	height: 300px;
+	border: 1px solid red;
+    margin:auto;
+}
+#parcel6 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel7 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: flex-end; /* блоки к началу главной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel7 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel8 .parent	{
+	display: flex;
+	flex-direction: column; /* главная ось слева направо */
+	justify-content: flex-end; /* блоки к началу главной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel8 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel9 .parent	{
+	display: flex;
+	flex-direction: row-reverse; /* главная ось слева направо */
+	justify-content: flex-start; /* блоки к началу главной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel9 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel10 .parent	{
+	display: flex;
+	flex-direction: row-reverse; /* главная ось слева направо */
+	justify-content: flex-end; /* блоки к началу главной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel10 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel11 .parent	{
+	display: flex;
+	flex-direction: column-reverse; /* главная ось слева направо */
+	justify-content: flex-end; /* блоки к началу главной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel11 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel12 .parent	{
+	display: flex;
+	flex-direction: column-reverse; /* главная ось слева направо */
+	justify-content: flex-end; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel12 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel13 .parent	{
+	display: flex;
+	flex-direction: row-reverse; /* главная ось слева направо */
+	justify-content: flex-start; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel13 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel14 .parent	{
+	display: flex;
+	flex-direction: column-reverse; /* главная ось слева направо */
+	justify-content: flex-end; /* блоки к началу главной оси */
+    align-items:     flex-start; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel14 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel15 .parent	{
+	display: flex;
+	flex-direction: column-reverse; /* главная ось слева направо */
+	justify-content: flex-start; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel15 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel16 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: flex-start; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+}
+#parcel16 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel17 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     flex-start; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#parcel17 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel18 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#parcel18 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel19 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     center; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#parcel19 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel20 .parent	{
+	display: flex;
+	flex-direction: row-reverse; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     center; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#parcel20 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel21 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: flex-end; /* блоки к началу главной оси */
+    align-items:     center; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#parcel21 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel22 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: space-between; /* блоки к началу главной оси */
+    align-items:     center; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#parcel22 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel23 .parent	{
+	display: flex;
+	flex-direction: column; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     center; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#parcel23 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parcel24 .parent	{
+	display: flex;
+	flex-direction: column-reverse; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     center; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#parcel24 .child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#stretch .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     stretch; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#stretch .child {
+	width: 100px;
+	border: 1px solid green;
+}
+
+#stretch0 .parent	{
+	display: flex;
+	flex-direction: column; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     stretch; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#stretch0 .child {
+	border: 1px solid green;
+}
+
+#stretch1 .parent	{
+	display: flex;
+	flex-direction: column; /* главная ось слева направо */
+	justify-content: space-between; /* блоки к началу главной оси */
+    align-items:     stretch; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#stretch1 .child {
+	border: 1px solid green;
+}
+
+#stretch2 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: space-around; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+   
+}
+#stretch2 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+
+#stretch3 .parent	{
+	display: flex;
+	flex-direction: column; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     flex-start; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+   
+}
+#stretch3 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+
+#stretch4 .parent	{
+	display: flex;
+	flex-direction: column; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+   
+}
+#stretch4 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+
+#stretch5 .parent	{
+	display: flex;
+	flex-direction: column-reverse; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+   
+}
+#stretch5 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+
+#stretch6 .parent	{
+	display: flex;
+	flex-direction: column-reverse; /* главная ось слева направо */
+	justify-content: center; /* блоки к началу главной оси */
+    align-items:     flex-start; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+   
+}
+#stretch6 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+
+#stretch7 .parent	{
+	display: flex;
+	flex-direction: column; /* главная ось слева направо */
+	justify-content: space-between; /* блоки к началу главной оси */
+    align-items:     flex-start; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+   
+}
+#stretch7 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+
+#stretch8 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: space-between; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+   
+}
+#stretch8 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+
+#stretch9 .parent	{
+	display: flex;
+	flex-direction: column-reverse; /* главная ось слева направо */
+	justify-content: space-between; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+   
+}
+#stretch9 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+
+#stretch10 .parent	{
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	justify-content: space-around; /* блоки к началу главной оси */
+    align-items:     flex-end; /* блоки к началу поперечной оси */
+    border:1px solid red;
+    margin:auto;
+    width:800px;
+    height:300px;
+    margin-left:20px;
+    margin-right:20px;
+   
+}
+#stretch10 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+
+#stretch11 .parent	{
+	display: flex;
+	align-items: center;
+	width: 800px;
+	height: 300px;
+	border: 1px solid red;
+    justify-content: center;
+   
+}
+#stretch11 .child {
+    width: 100px;
+	height: 50px;
+	border: 1px solid green;
+    
+}
+#stretch11 .elem {
+	align-self: flex-end;
+}
+
+#stretch12 .parent	{
+	display: flex;
+	align-items: stretch;
+	width: 800px;
+	height: 300px;
+	border: 1px solid red;
+    justify-content: center;
+   
+}
+#stretch12 .child {
+    width: 100px;
+	border: 1px solid green;
+    
+}
+#stretch12 .elem {
+	align-self: center;
+    width:100px;
+}
+
+#stretch13 .parent	{
+	display: flex;
+	align-items: flex-start;
+	width: 800px;
+	height: 400px;
+	border: 1px solid red;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+#stretch13 .child {
+    width: 80px;
+    height:50px;
+	border: 1px solid green;
+    
+}
+#stretch13 .elem {
+	align-self: center;
+    width:100px;
+}
+
+
+
+
+

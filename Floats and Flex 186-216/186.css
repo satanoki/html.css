@@ -1,0 +1,15 @@
+div {
+	width: 400px;
+	text-align: justify;
+}
+.bb {
+    width:150px;
+    float:left;
+    margin-right:1px;
+}
+.bb1 {
+width:150px;
+float:right;
+margin-top:10px;
+margin-left:10px;
+}
