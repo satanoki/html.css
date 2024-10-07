@@ -1,0 +1,753 @@
+#grids #parent {
+	display: grid;
+	grid-template-columns: 200px 400px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids0 #parent {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids0 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids1 #parent {
+	display: grid;
+	grid-template-columns: 150px 150px 150px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids1 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids2 #parent {
+	display: grid;
+	grid-template-columns: 100px 150px 200px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids2 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids3 #parent {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids3 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids4 #parent {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids4 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids5 #parent {
+	display: grid;
+	grid-template-columns: 1fr 1fr 3fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids5 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids6 #parent {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1.5fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids6 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids7 #parent {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 2.5fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids7 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids8 #parent {
+	display: grid;
+	grid-template-columns: 100px 1fr 1fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids8 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids9 #parent {
+	display: grid;
+	grid-template-columns: 100px 1fr 1.5fr 100px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids9 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids10 #parent {
+	display: grid;
+	grid-template-columns: 20% 1fr 1fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids10 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids11 #parent {
+	display: grid;
+	grid-template-columns: 100px 20% 1fr 2fr 4fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids11 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids12 #parent {
+	display: grid;
+	grid-template-columns: repeat(4, 150px);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids12 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids13 #parent {
+	display: grid;
+	grid-template-columns: repeat(4, 100px) repeat(3, 2fr);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids13 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids14 #parent {
+	display: grid;
+	grid-template-columns: repeat(2, 100px) repeat(3, 200px) 1fr repeat(2,10%);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 1100px;
+}
+#grids14 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids15 #parent {
+	display: grid;
+	grid-template-columns: 200px auto;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids15 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids16 #parent {
+	display: grid;
+	grid-template-columns: 100px 150px auto;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#grids16 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids17 #parent {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 
+		6fr)); 
+	border: 2px solid #696989;
+	padding: 10px;
+}
+#grids17 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids18 #parent {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 
+		1fr)); 
+	border: 2px solid #696989;
+	padding: 10px;
+}
+#grids18 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids19 #parent {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 
+		1fr)); 
+	border: 2px solid #696989;
+	padding: 10px;
+}
+#grids19 #parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids20 #parent {
+    display: grid;
+	grid-template-rows: 100px 150px 200px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 400px;
+}
+#grids20 #parent > div {
+    padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids21 #parent {
+    display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 400px;
+}
+#grids21 #parent > div {
+    padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids22 #parent {
+    display: grid;
+    grid-template: 1fr 2fr / 0.5fr 1fr 1fr 2fr ;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+    height: 200px;
+}
+#grids22 #parent > div {
+    padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids23 #parent {
+    display: grid;
+    grid-template: 1fr 2fr / 2fr 1fr 1fr 2fr ;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+    height: 200px;
+}
+#grids23 #parent > div {
+    padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids24 #parent {
+    display: grid;
+    grid-template: repeat(2, 0.5fr) 1fr 2fr / 0.5fr 1.5fr 3fr ;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+}
+#grids24 #parent > div {
+    padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids25 #parent {
+    display: grid;
+    grid-template: 4fr 2fr 2fr / 4fr 1.5fr 3fr 1.5fr ;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+}
+#grids25 #parent > div {
+    padding: 10px;
+	border: 1px solid #696989;
+}
+
+#grids26 #parent {
+    display: grid;
+    grid-template: 4fr 2fr / repeat(2, 0.5fr) 1fr repeat(2, 2fr) ;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+}
+#grids26 #parent > div {
+    padding: 10px;
+	border: 1px solid #696989;
+}
+
+#parent232_1 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent232_1 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_1 {
+	grid-row: 1/2;
+}
+#elem2_1 {
+	grid-row: 2/3;
+}
+#elem3_1 {
+	grid-row: 1/2;
+}
+#elem4_1 {
+	grid-row: 2/4;
+}
+#elem5_1 {
+	grid-row: 3/4;
+}
+
+#parent232_2 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent232_2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_2 {
+	grid-row: 1/5;
+}
+#elem2_2 {
+	grid-row: 1/2;
+}
+#elem3_2 {
+	grid-row: 2/3;
+}
+#elem4_2 {
+	grid-row: 3/4;
+}
+#elem5_2 {
+	grid-row: 4/5;
+}
+
+#parent232_3 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent232_3 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_3 {
+	grid-row: 1/2;
+}
+#elem2_3 {
+	grid-row: 1/3;
+}
+#elem3_3 {
+	grid-row: 2/3;
+}
+#elem4_3 {
+	grid-row: 3/5;
+}
+#elem5_3 {
+	grid-row: 3/5;
+}
+
+#parent233_1 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent233_1 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_01 {
+	grid-column: 1/2;
+}
+#elem2_01 {
+	grid-column: 2/4;
+}
+#elem3_01 {
+	grid-column: 1/3;
+}
+#elem4_01 {
+	grid-column: 3/4;
+}
+
+#parent233_2 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent233_2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_02 {
+	grid-column: 1/4;
+}
+#elem2_02 {
+	grid-column: 1/2;
+}
+#elem3_02 {
+	grid-column: 2/3;
+}
+#elem4_02 {
+	grid-column: 3/4;
+}
+#elem5_02 {
+	grid-column: 1/4;
+}
+#parent233_3 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent233_3 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_03 {
+	grid-column: 1/2;
+}
+#elem2_03 {
+	grid-column: 2/5;
+}
+#elem3_03 {
+	grid-column: 5/6;
+}
+#elem4_03 {
+	grid-column: 1/3;
+}
+#elem5_03 {
+	grid-column: 3/6;
+}
+#elem6_03 {
+	grid-column: 1/4;
+}
+#elem7_03 {
+	grid-column: 4/6;
+}
+#parent234_1 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent234_1 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_11 {
+	grid-row: 1 / 2;
+	grid-column: 1 / 2;
+}
+#elem2_11 {
+	grid-row: 1 / 2;
+	grid-column: 2 / 3;
+}
+#elem3_11 {
+	grid-row: 1 / 2;
+	grid-column: 3 / 4;
+}
+#elem4_11 {
+	grid-row: 2 / 3;
+	grid-column: 1 / 3;
+}
+#elem5_11 {
+	grid-row: 2 / 3;
+	grid-column: 3 / 4;
+}
+#elem6_11 {
+	grid-row: 3 / 4;
+	grid-column: 1 / 4;
+}
+
+#parent234_2 {
+	display: grid;
+	height: 400px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent234_2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_12 {
+	grid-row: 1 / 3;
+	grid-column: 1 / 3;
+}
+#elem2_12 {
+	grid-row: 1 / 2;
+	grid-column: 3 / 4;
+}
+#elem3_12 {
+	grid-row: 2 / 3;
+	grid-column: 3 / 4;
+}
+#elem4_12 {
+	grid-row: 3 / 4;
+	grid-column: 2 / 4;
+}
+#elem5_12 {
+	grid-row: 3/ 4;
+	grid-column: 1 / 2;
+}
+#elem6_12 {
+	grid-row: 4 / 6;
+	grid-column: 1 / 4;
+}
+#parent235_1 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent235_1 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_06 {
+	
+	grid-column: 1 / 3;
+}
+#elem2_06 {
+	
+	grid-column: 2 / 4;
+}
+#elem3_06 {
+
+	grid-column: 3/ 5;
+}
+#parent235_2 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent235_2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_07 {
+	
+	grid-column: 1 / 3;
+}
+#elem2_07 {
+	
+	grid-column: 2 / 5;
+}
+#elem3_07 {
+
+	grid-column: 1/ 4;
+}
+#elem4_07 {
+
+	grid-column: 3/ 5;
+}
+#elem5_07 {
+
+	grid-column: 1/ 4;
+}
+#parent235_3 {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent235_3 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1_08 {
+	
+	grid-column: 1 / 3;
+}
+#elem2_08 {
+	
+	grid-column: 3 / 5;
+}
+#elem3_08 {
+
+	grid-column: 2/ 4;
+}
+#elem4_08 {
+
+	grid-column: 1/ 3;
+}
+#elem5_08 {
+
+	grid-column: 2/ 5;
+}
+#parent236 {
+	display: grid;
+	column-gap: 20%;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 200px;
+}
+#parent236 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent237 {
+	display: grid;
+	row-gap: 25%;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 300px;
+}
+#parent237 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent238_1 {
+	display: grid;
+	gap: 10px;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 200px;
+}
+#parent238_1 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent238_2 {
+	display: grid;
+	gap: 5% 10px;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 200px;
+}
+#parent238_2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent239_1 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+}
+#parent239_1 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+	height: 100px;
+}
+#parent239_2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr) 2fr 3fr;
+	grid-gap: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+}
+#parent239_2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+	height: 100px;
+}
+#parent239_3 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr) ;
+	grid-gap: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+}
+#parent239_3 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+	height: 100px;
+}
+
+
+
+
+
+
